@@ -1,0 +1,7 @@
+key:
+  - key2: 'https://github.com/pre-commit/pre-commit-hooks'
+    list:
+      - 1
+      - 2.0
+      - 'This is a string'
+      - This is also a string
