@@ -17,7 +17,7 @@ jobs:
     - name: Install deps
       run: pipenv sync --system
     - name: Run linter
-      run: flake8 .
+      run: flake8 --ignore=E501 .
     - name: Run formatters
       run: |
         black --check .
